@@ -1,0 +1,62 @@
+{
+  // Define o tema do VSCode
+
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "migrations": "tools",
+    "dtos": "typescript",
+    "websockets": "pipe",
+    "moks": "mock",
+    "implementations": "core"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+
+}
